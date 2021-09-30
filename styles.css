@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ecf2f8;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  padding: 1.5em 2em 2em 2em;
+  border-radius: 8px;
+  margin-bottom: 1.5em;
+}
+
+.card .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .head .avatar {
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+  border: solid 2px;
+  color: white;
+}
+
+.card .head .name {
+  margin-left: 0.75em;
+  padding-top: 0;
+}
+
+.card .head .name h3 {
+  font-size: 0.8em;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.card .head .name h4 {
+  margin-top: 0;
+  font-size: 0.7em;
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.card h2 {
+  margin-top: 0.75em;
+  font-size: 1.18em;
+  width: 93%;
+  font-weight: 500;
+}
+
+.card blockquote {
+  margin-top: 1em;
+  font-size: 0.8em;
+  font-weight: 500;
+  width: 91%;
+  opacity: 60%;
+}
+
+#first {
+  margin-top: 4em;
+}
+
+#first .pattern {
+  height: 6em;
+  position: absolute;
+  right: 3em;
+  top: 4em;
+}
+
+#first .head {
+  z-index: 2;
+}
+
+#first h2 {
+  z-index: 2;
+}
+
+.violet {
+  background-color: #7541c8;
+  color: white;
+}
+
+.violet .avatar {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.gray {
+  background-color: #48556a;
+  color: white;
+}
+
+.gray .avatar {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.white {
+  background-color: white;
+  color: #48556a;
+}
+
+.white .avatar {
+  border-color: white !important;
+}
+
+.white h3 {
+  font-weight: 500 !important;
+}
+
+.dark {
+  background-color: #19212e;
+  color: white;
+}
+
+.dark .avatar {
+  border: solid 2px #7541c8 !important;
+}
+/*# sourceMappingURL=styles.css.map */
